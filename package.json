@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "description": "Projeto resposável pelos componentes que compõe a aplicação",
   "private": true,
-  "main": "src/index.js",
   "dependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.4",
     "@storybook/cli": "^4.1.13",
     "eslint-config-airbnb": "^17.1.0",
     "init": "^0.1.2",
+    "npx": "^10.2.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5",
+    "react-scripts": "^2.1.8",
     "recompose": "^0.30.0",
     "sb": "^0.2.1",
     "styled-components": "^4.1.3"

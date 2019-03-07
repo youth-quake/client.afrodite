@@ -1,10 +1,10 @@
-import React from "react";
-import { storiesOf } from "@storybook/react";
-import { action } from "@storybook/addon-actions";
-import { withInfo } from "@storybook/addon-info";
-import centered from "@storybook/addon-centered";
-import backgrounds from "@storybook/addon-backgrounds";
-import { Button } from "./Button";
+import React from 'react'
+import { storiesOf } from '@storybook/react'
+import { action } from '@storybook/addon-actions'
+import { withInfo } from '@storybook/addon-info'
+import centered from '@storybook/addon-centered'
+import backgrounds from '@storybook/addon-backgrounds'
+import { Button } from './Button'
 
 const buttonContainer = {
   width: "300px"
@@ -13,14 +13,6 @@ const buttonContainer = {
 const ButtonStories = storiesOf("Button", module)
   .addDecorator(centered)
   .addDecorator(backgrounds(backgroundThemes))
-  .add(
-    "default",
-    withInfo("default")(() => (
-      <div style={buttonContainer}>
-        <Button onClick={action("button-click")}>Button</Button>
-      </div>
-    ))
-  )
   .add(
     "primary",
     withInfo("enabled button")(() => (
@@ -40,6 +32,6 @@ const ButtonStories = storiesOf("Button", module)
         </Button>
       </div>
     ))
-  );
+  )
 
-export default ButtonStories;
+export default ButtonStories
