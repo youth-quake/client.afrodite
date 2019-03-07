@@ -1,6 +1,6 @@
 {
   "name": "client.afrodite",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Projeto resposável pelos componentes que compõe a aplicação",
   "private": true,
   "dependencies": {
