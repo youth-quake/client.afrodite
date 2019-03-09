@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Button = styled.button`
+const Input = styled.input`
   position: relative;
   padding-top: 15px;
   margin-bottom: 20px;
@@ -9,4 +9,4 @@ const Button = styled.button`
   background: red;
 `
 
-export default Button
+export default Input
