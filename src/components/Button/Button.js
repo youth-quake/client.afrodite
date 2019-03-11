@@ -1,12 +1,17 @@
 import styled from 'styled-components'
 
 const Button = styled.button`
-  position: relative;
-  padding-top: 15px;
-  margin-bottom: 20px;
-  z-index: 0;
   width: 100%;
-  background: red;
+  position: relative;
+  padding: 10px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  background: #FF8C00;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  ${props => props.disabled && 'cursor: not-allowed;'}
 `
 
 export default Button
