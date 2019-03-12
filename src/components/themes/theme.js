@@ -1,4 +1,4 @@
-export default {
+export const Pallet = {
   padding: '10px',
   border_radius: '4px',
   border: 'none',
