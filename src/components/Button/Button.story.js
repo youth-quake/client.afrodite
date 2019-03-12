@@ -10,7 +10,7 @@ const Wrapper = styled.div`
 export const ButtonStories = storiesOf('Button', module)
   .add('enabled button', () => (
     <Wrapper>
-      <Button onClick={action('clicked')}>
+      <Button primary_color onClick={action('clicked')}>
         Enabled
       </Button>
     </Wrapper>)

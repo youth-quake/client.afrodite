@@ -7,8 +7,8 @@ const Button = styled.button`
   border-radius: 4px;
   outline: none;
   border: none;
-  background: #FF8C00;
-  color: white;
+  background: #F36523;
+  color: #F4F4F4;
   font-weight: bold;
   font-size: 14px;
   ${props => props.disabled && 'cursor: not-allowed;'}
