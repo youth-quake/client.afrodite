@@ -2,7 +2,7 @@
   "name": "client.afrodite",
   "version": "0.1.3",
   "description": "Projeto resposável pelos componentes que compõe a aplicação",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.4",
