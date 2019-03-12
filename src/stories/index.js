@@ -1,2 +1,2 @@
-import { ButtonStories } from '../components/Button'
-import { InputStories } from '../components/Input'
+export { ButtonStories } from '../components/Button/Button.story'
+export { InputStories } from '../components/Input/Input.story'
