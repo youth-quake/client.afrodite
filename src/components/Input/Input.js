@@ -4,7 +4,7 @@ const Input = styled.input`
   position: relative;
   padding: 15px;
   width: 100%;
-  background: #FAFAFA;
+  background: ${props => props.theme.base_color};
   border: none;
   font-size: 14px;
   color: #080808;

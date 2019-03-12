@@ -6,6 +6,7 @@ import Button from './Button'
 
 const Wrapper = styled.div`
   width: 300px;
+  margin: 20% auto;
 `
 export const ButtonStories = storiesOf('Button', module)
   .add('enabled button', () => (

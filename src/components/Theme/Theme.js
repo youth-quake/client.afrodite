@@ -1,4 +1,4 @@
-export const Pallet = {
+export const Theme = {
   padding: '10px',
   border_radius: '4px',
   border: 'none',
