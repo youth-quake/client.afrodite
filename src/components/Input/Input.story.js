@@ -13,12 +13,21 @@ export const InputStories = storiesOf('Input', module)
   .add('enabled input', () =>
     (
       <Wrapper>
-        <Input theme={Theme} type='text' placeholder='Digite seu nome' />
+        <Input
+          theme={Theme}
+          color={Theme.base_color}
+          type='text'
+          placeholder='Digite seu nome' />
       </Wrapper>
     )
   )
   .add('disabled input', () => (
     <Wrapper>
-      <Input theme={Theme} type='text' placeholder='Digite seu nome' disabled />
+      <Input
+        theme={Theme}
+        color={Theme.base_color}
+        type='text'
+        placeholder='Digite seu nome'
+        disabled />
     </Wrapper>
   ))
