@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Input = styled.input`
+const Input = styled.input`
   position: relative;
   padding: 15px;
   width: 100%;
@@ -10,3 +10,4 @@ export const Input = styled.input`
   color: #080808;
   ${props => props.disabled && 'cursor: not-allowed;'}
 `
+export default Input

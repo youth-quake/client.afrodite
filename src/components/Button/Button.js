@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Button = styled.button`
+const Button = styled.button`
   width: 100%;
   position: relative;
   padding: 10px;
@@ -13,3 +13,5 @@ export const Button = styled.button`
   font-size: 14px;
   ${props => props.disabled && 'cursor: not-allowed;'}
 `
+
+export default Button
