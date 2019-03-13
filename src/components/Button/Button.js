@@ -4,13 +4,13 @@ const Button = styled.button`
   width: 100%;
   position: relative;
   padding: 10px;
-  border-radius: 4px;
+  border-radius: ${props => props.theme.border_radius};
   outline: none;
   border: none;
-  background: #F36523;
-  color: #F4F4F4;
+  background: ${props => props.color};
+  color: ${props => props.theme.base_color};
   font-weight: bold;
-  font-size: 14px;
+  font-size: ${props => props.theme.font_size};
   ${props => props.disabled && 'cursor: not-allowed;'}
 `
 
