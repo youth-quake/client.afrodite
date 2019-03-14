@@ -8,5 +8,7 @@ export const Theme = {
   primary_color: '#F36523',
   constrast_color: '#FBA919',
   secondary_color: '#472F91',
-  secondary_constrast_color: '#0079C2'
+  secondary_constrast_color: '#0079C2',
+  text_color: '#000000',
+  title_color: '#F36523'
 }
