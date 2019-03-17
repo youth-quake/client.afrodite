@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Anchor = styled.a`
+export const Anchor = styled.a`
   width: 100%;
   position: relative;
   padding: 10px;
@@ -12,5 +12,3 @@ const Anchor = styled.a`
   font-size: ${props => props.theme.font_size};
   ${props => props.disabled && 'cursor: not-allowed;'}
 `
-
-export default Anchor

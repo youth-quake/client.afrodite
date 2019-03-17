@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Select = styled.select`
+export const Select = styled.select`
   width: 100%;
   position: relative;
   padding: 10px;
@@ -19,7 +19,4 @@ export const Option = styled.option`
 width: 40%;
 border-radius: 1rem;
 background: ${props => props.color};
-
-
 `
-export default Select
