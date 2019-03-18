@@ -1,2 +1,6 @@
-export Button from './components/Button'
-export Input from './components/Input'
+export { Button } from './components/Button/Button'
+export { Input } from './components/Input/Input'
+export { Select } from './components/Select/Select'
+export { Anchor } from './components/Anchor/Anchor'
+export { Password } from './components/Password/Password'
+export { Theme } from './components/Theme'

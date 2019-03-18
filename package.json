@@ -1,6 +1,6 @@
 {
   "name": "afrodite",
-  "version": "0.1.7",
+  "version": "0.1.9",
   "description": "Projeto resposável pelos componentes que compõe a aplicação",
   "private": false,
   "dependencies": {

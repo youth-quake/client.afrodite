@@ -1,6 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import Password from './Password'
+import { Password } from './Password'
 import styled from 'styled-components'
 import { Theme } from '../Theme'
 

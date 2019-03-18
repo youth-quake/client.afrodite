@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Password = styled.input`
+export const Password = styled.input`
   position: relative;
   padding: 15px;
   width: 100%;
@@ -10,4 +10,3 @@ const Password = styled.input`
   color: #080808;
   ${props => props.disabled && 'cursor: not-allowed;'}
 `
-export default Password
