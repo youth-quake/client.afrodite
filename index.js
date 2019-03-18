@@ -1,6 +1,0 @@
-export { Button } from './src/components/Button/Button'
-export { Input } from './src/components/Input/Input'
-export { Select } from './src/components/Select/Select'
-export { Anchor } from './src/components/Anchor/Anchor'
-export { Password } from './src/components/Password/Password'
-export { Theme } from './src/components/Theme'
