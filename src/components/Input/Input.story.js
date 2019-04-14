@@ -7,6 +7,8 @@ import { Theme } from '../Theme'
 const Wrapper = styled.div`
   width: 300px;
   margin: 20% auto;
+  display: flex;
+  flex-flow: column;
 `
 
 export const InputStories = storiesOf('Input', module)

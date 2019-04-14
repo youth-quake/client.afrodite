@@ -8,5 +8,6 @@ export const Password = styled.input`
   border: none;
   font-size: 14px;
   color: #080808;
+  margin: 10px 0;
   ${props => props.disabled && 'cursor: not-allowed;'}
 `

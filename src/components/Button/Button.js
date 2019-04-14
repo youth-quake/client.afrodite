@@ -11,5 +11,6 @@ export const Button = styled.button`
   color: ${props => props.theme.base_color};
   font-weight: bold;
   font-size: ${props => props.theme.font_size};
+  margin: 10px 0;
   ${props => props.disabled && 'cursor: not-allowed;'}
 `
